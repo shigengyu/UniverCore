@@ -27,37 +27,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{BBF499
 	EndProjectSection
 EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 9
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs02
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = Univer.Core\\Univer.Core.csproj
-		SccProjectName1 = Univer.Core
-		SccLocalPath1 = Univer.Core
-		SccProjectUniqueName2 = Univer.Common\\Univer.Common.csproj
-		SccProjectName2 = Univer.Common
-		SccLocalPath2 = Univer.Common
-		SccProjectUniqueName3 = Univer.WorkflowLight\\Univer.WorkflowLight.csproj
-		SccProjectName3 = Univer.WorkflowLight
-		SccLocalPath3 = Univer.WorkflowLight
-		SccProjectUniqueName4 = Univer.WorkflowLight.UnitTest\\Univer.WorkflowLight.UnitTest.csproj
-		SccProjectName4 = Univer.WorkflowLight.UnitTest
-		SccLocalPath4 = Univer.WorkflowLight.UnitTest
-		SccProjectUniqueName5 = Univer.Console\\Univer.Console.csproj
-		SccProjectName5 = Univer.Console
-		SccLocalPath5 = Univer.Console
-		SccProjectUniqueName6 = Univer.Console.Test\\Univer.Console.Test.csproj
-		SccProjectName6 = Univer.Console.Test
-		SccLocalPath6 = Univer.Console.Test
-		SccProjectUniqueName7 = ConsoleEcho\\ConsoleEcho.csproj
-		SccProjectTopLevelParentUniqueName7 = UniverCore.sln
-		SccProjectName7 = ConsoleEcho
-		SccLocalPath7 = ConsoleEcho
-		SccProjectUniqueName8 = Univer.Web\\Univer.Web.csproj
-		SccProjectName8 = Univer.Web
-		SccLocalPath8 = Univer.Web
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|Mixed Platforms = Debug|Mixed Platforms
