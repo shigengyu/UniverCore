@@ -102,10 +102,11 @@ namespace Univer.Core.DataMapping
             }
 
             [Test]
-            [ExpectedException(typeof(DataMappingException))]
             public void ExtractEntitiesAssignToNonNullableTest()
             {
                 var entities = _dataTable.ExtractEntities<MyEntityC>().ToList();
+                Assert.AreEqual(3, entities.Count);
+                Assert.AreEqual(default(int), entities.Last().Number);
             }
 
             [Test]
