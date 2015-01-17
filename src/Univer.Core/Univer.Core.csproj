@@ -58,12 +58,8 @@
     <Compile Include="Caching\DictionaryCacheContainer.cs" />
     <Compile Include="Caching\ICacheContainer.cs" />
     <Compile Include="Caching\ListCacheContainer.cs" />
-    <Compile Include="Configuration\ListItemWrapper.cs" />
-    <Compile Include="Configuration\ListWrapper.cs" />
-    <Compile Include="Configuration\FieldDefaultValueAttribute.cs" />
-    <Compile Include="Configuration\OverridableList.cs" />
-    <Compile Include="Configuration\XmlConfigurationExtension.cs" />
-    <Compile Include="Configuration\XmlConfigurationProxy.cs" />
+    <Compile Include="Configuration\ConfigurationUtils.cs" />
+    <Compile Include="Configuration\ConfigurationException.cs" />
     <Compile Include="DataMapping\ColumnNameMappingPolicy.cs" />
     <Compile Include="DataMapping\DataMappingException.cs" />
     <Compile Include="DataMapping\DataMappingFieldAttribute.cs" />
@@ -80,7 +76,6 @@
     <Compile Include="Dynamic\DynamicTypeComponent.cs" />
     <Compile Include="Dynamic\DynamicTypeException.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Configuration\XmlConfiguration.cs" />
     <Compile Include="Reflection\ObjectExtension.cs" />
   </ItemGroup>
   <ItemGroup>

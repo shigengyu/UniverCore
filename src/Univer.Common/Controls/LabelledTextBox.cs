@@ -33,6 +33,14 @@ namespace Univer.Common.Controls
     public class LabelledTextBox : LabelledControlBase<TextBox>
     {
         /// <summary>
+        /// 
+        /// </summary>
+        public LabelledTextBox()
+            : base(true)
+        {
+        }
+
+        /// <summary>
         /// Gets or sets a value indicating whether [read only].
         /// </summary>
         /// <value>

@@ -22,6 +22,7 @@
 
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
@@ -44,7 +45,15 @@ namespace Univer.Common.Controls
         public LabelledControlBase()
         {
             InitializeComponent();
+        }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="initialize"></param>
+        public LabelledControlBase(bool initialize)
+            : this()
+        {
             Title = "Title";
             TitleWidth = 100;
 
