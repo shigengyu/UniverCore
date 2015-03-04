@@ -104,6 +104,7 @@ namespace Univer.Core.Caching
         public void Dispose()
         {
             Dispose(true);
+            GC.SuppressFinalize(this);
         }
 
         /// <summary>
@@ -121,8 +122,6 @@ namespace Univer.Core.Caching
             {
                 if (_timer != null)
                     _timer.Dispose();
-
-                GC.SuppressFinalize(this);
             }
 
             _isDisposed = true;

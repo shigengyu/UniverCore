@@ -146,6 +146,7 @@ namespace Univer.Common
         public void Dispose()
         {
             Dispose(true);
+            GC.SuppressFinalize(this);
         }
 
         /// <summary>
@@ -161,14 +162,10 @@ namespace Univer.Common
             if (_isDisposed)
                 return;
 
-            _isDisposed = true;
-            if (disposing)
-            {
-                GC.SuppressFinalize(this);
-            }
-
             if (!Process.HasExited)
                 Process.Kill();
+
+            _isDisposed = true;
         }
 
         #endregion
